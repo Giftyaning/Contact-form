@@ -66,10 +66,15 @@ button, input{
     padding: 1em;
     border-radius: .7em;
     border: .1em solid;
+    cursor: pointer;
 }
 
 button{
     background-color: #36384d;
     color: #fff
+}
+
+button:hover{
+    background: linear-gradient(90deg, #ff5475, #ff5f57);
 }
 /* End of Form */
