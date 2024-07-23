@@ -17,6 +17,12 @@ body{
     border-radius: 2em;
 }
 
+/* Typography */
+h1{
+    font-size: 3rem;
+}
+/* End of typography */
+
 .main{
     display: flex;
     justify-content: center;
@@ -30,11 +36,19 @@ body{
     align-items: flex-start;
     padding: 5em;
     width: 100%;
-    gap: 3em;
+    gap: 2em;
 }
 
-/* Form */
+/* List items */
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+/* End of list items */
 
+
+/* Form */
 form{
     display: flex;
     flex-direction: column;
@@ -58,3 +72,4 @@ button{
     background-color: #36384d;
     color: #fff
 }
+/* End of Form */
