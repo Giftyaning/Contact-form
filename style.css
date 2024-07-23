@@ -78,3 +78,17 @@ button:hover{
     background: linear-gradient(90deg, #ff5475, #ff5f57);
 }
 /* End of Form */
+
+/* Success message */
+.emailsuccess{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 1em;
+    border-radius: 2.5em;
+}
+.success-icon{
+    max-width: 15%;
+}
+/* End of success message */
