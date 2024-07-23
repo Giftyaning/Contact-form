@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    list-style-type: circle;
+    list-style-type: none;
 }
 
 body{
@@ -19,12 +19,42 @@ body{
 
 .main{
     display: flex;
-    background-color: burlywood;
     justify-content: center;
     padding: 0;
+    margin: 0;
 }
 
 .right{
-    background-color: blueviolet;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5em;
+    width: 100%;
+    gap: 3em;
+}
+
+/* Form */
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    width: 100%;
+}
+
+.form-info{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+button, input{
+    padding: 1em;
+    border-radius: .7em;
+    border: .1em solid;
+}
+
+button{
+    background-color: #36384d;
+    color: #fff
 }
