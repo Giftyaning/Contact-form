@@ -96,3 +96,66 @@ button:hover{
     max-width: 15%;
 }
 /* End of success message */
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        padding: 0;
+        overflow: hidden; 
+    }
+
+    .main {
+        flex-direction: column; 
+        width: 100%;
+        padding: 0;
+        gap: 0; 
+    }
+
+    .left {
+        order: -1; 
+        width: 100%; 
+        margin-bottom: 2em; 
+    }
+
+    .left img {
+        width: 100%; 
+        height: auto; 
+    }
+
+    .right {
+        width: 100%;
+        padding: 1em; 
+        box-sizing: border-box; 
+    }
+
+    form {
+        width: 100%;
+        padding: 1em; 
+        box-sizing: border-box; 
+    }
+
+     /* Success message styling for mobile */
+    .emailsuccess {
+        left: 0;
+        width: 100%; 
+        height: 100vh; 
+        z-index: 1000; 
+    }
+
+    .success-content {
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%; 
+        max-width: 50em; 
+    }
+
+    .success-icon {
+        width: 40%; 
+        margin-bottom: 1em; 
+    }
+
+    .dismissbtn{
+        margin-top: 15em;
+        width: 100%;
+    }
+}
