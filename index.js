@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
       errorContainer.style.display = "none";
       mainContainer.style.display = "none";
       emailSuccess.style.display = "flex";
-      emailSuccess.style.maxWidth = "30em"; // Adjust width for emailSuccess
+      emailSuccess.style.maxWidth = "30em"; 
     } else {
       errorContainer.textContent = "Please enter a valid email address.";
       errorContainer.style.display = "block";
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
   dismissButton.addEventListener("click", function () {
     emailSuccess.style.display = "none";
     mainContainer.style.display = "flex";
-    emailInput.value = ""; // Reset the email input
-    errorContainer.style.display = "none"; // Hide the error message
+    emailInput.value = ""; 
+    errorContainer.style.display = "none"; 
   });
 });
