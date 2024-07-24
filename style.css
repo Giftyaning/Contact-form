@@ -15,6 +15,7 @@ body{
     padding: 2em;
     max-width: 70%;
     border-radius: 2em;
+    overflow: hidden;
 }
 
 /* Typography */
@@ -28,6 +29,14 @@ h1{
     justify-content: center;
     padding: 0;
     margin: 0;
+}
+
+.sign-up-desktop{
+    display: flex;
+}
+
+.sign-up-mobile{
+        display: none;
 }
 
 .right{
@@ -101,7 +110,6 @@ button:hover{
     .container {
         max-width: 100%;
         padding: 0;
-        overflow: hidden; 
     }
 
     .main {
@@ -120,6 +128,14 @@ button:hover{
     .left img {
         width: 100%; 
         height: auto; 
+    }
+
+    .sign-up-desktop{
+        display: none;
+    }
+
+    .sign-up-mobile{
+        display: flex;
     }
 
     .right {
